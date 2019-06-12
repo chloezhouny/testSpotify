@@ -161,7 +161,7 @@ function play(device_id) {
   $.ajax({
    url: "https://api.spotify.com/v1/me/player/play?device_id=" + device_id,
    type: "PUT",
-   data: '{"uris": ["spotify:track:5ya2gsaIhTkAuWYEMB0nw5"]}',
+   data: '{"uri": ["spotify:playlist:37i9dQZF1DWWEJlAGA9gs0"]}',
    beforeSend: function(xhr){xhr.setRequestHeader('Authorization', 'Bearer ' + _token );},
    success: function(data) { 
      console.log(data)
