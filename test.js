@@ -81,7 +81,8 @@ function getSpotifyToken()
 
 }
 
-
+getButton();
+getSpotifyToken();
 
 
 
@@ -105,7 +106,7 @@ const authEndpoint = 'https://accounts.spotify.com/authorize';
 
 // Replace with your app's client ID, redirect URI and desired scopes
 const clientId = '5e15085d2b924d049ae29907ee452bbf';
-const redirectUri = 'file:///Users/chloe/Desktop/the-first-big-project/test.html';
+const redirectUri = 'https://chloezhouny.github.io/testSpotify/';
 const scopes = [
   'streaming',
   'user-read-birthdate',
